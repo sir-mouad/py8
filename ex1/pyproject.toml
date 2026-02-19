@@ -2,15 +2,15 @@
 name = "ex01"
 version = "0.1.0"
 description = "Matrix analysis"
-authors = [mhadir]
+authors = ["mhadir"]
 package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.10"
-pandas = "*"
-requests = "*"
-matplotlib = "*"
-numpy = "*"
+pandas = "^3.0.1"
+requests = "^2.25.1"
+matplotlib = "^3.10.8"
+numpy = "^2.4.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
